@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.drink-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    max-width: 1500px;
+    margin: 100px;
+}
+
+.drink{
+    background-color: #e299dc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .drink-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .drink-grid{
+        grid-template-columns: 1fr;
+    }
+}
+  
+.navbar {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%; 
+background-color: #f4e1d2;
+display: flex;
+align-items: center;
+justify-content: space-between; 
+padding: 20px 10px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+z-index: 0;
+height: 50px; 
+}
+
+.menu-button {
+background-color: #d04895;
+color: white;
+border: none;
+padding: 8px 15px;
+font-size: 16px; 
+cursor: pointer;
+border-radius: 5px;
+}
+
+.menu-button:hover {
+background-color: #a93881;
+}
+
+.brand-title {
+font-size: 20px; 
+color: #333;
+margin: 0;
+text-align: center;
+flex-grow: 1; 
+}
+
+.logo {
+height: 70px; 
+}
+
+.menu {
+display: none;
+position: absolute;
+top: 65px; 
+right: 0; 
+background-color: white;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+width: 300px;
+z-index: 1;
+}
+
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.menu li {
+border-bottom: 2px solid #ddd;
+}
+
+.menu li:last-child {
+border-bottom: none;
+}
+
+.menu a {
+display: block;
+text-decoration: none;
+color: #333;
+padding: 10px 15px;
+transition: background-color 0.3s;
+}
+
+.menu a:hover {
+background-color: #f4f4f9;
+}
+
+
+@media (max-width: 768px) {
+.navbar {
+    padding: 8px 10px; 
+    height: 45px; 
+}
+
+.brand-title {
+    font-size: 16px; 
+}
+
+.menu-button {
+    padding: 6px 12px;
+    font-size: 14px; 
+}
+
+.menu {
+    width: 100%; 
+    right: 0; 
+    top: 60px; 
+}
+
+.menu a {
+    padding: 10px; 
+}
+
+.logo {
+    height: 50px; 
+}
+}
+
+body {
+padding-top: 50px; 
+}
