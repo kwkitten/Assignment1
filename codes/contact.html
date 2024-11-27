@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kat Kafe</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Delicious+Handrawn&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Kat Kafe Logo" class="logo">
+            <h1 class="brand-name">Kat Kafe</h1>
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+        </div>
+    </div>
+</header>
+
+<body>
+    <form style="width: 100%;">
+        <div class="mb-12">
+            <label for="fullName" class="form-label">Full Name<span class="required">*</span></label><br>
+            <input type="text" class="form-control" id="fullName" placeholder="Name" required>
+        </div>
+        
+        <div class="mb-12">
+            <label for="emailInput" class="form-label">Email<span class="required">*</span></label><br>
+            <input type="email" class="form-control" id="emailInput" placeholder="Email" required>
+        </div>
+
+        <div class="mb-12">
+            <label for="phoneInput" class="form-label">Phone Number<span class="required">*</span></label> <br>
+            <input type="tel" class="form-control" id="phoneInput" placeholder="Phone" required>
+        </div>
+        <div class="mb-12 row">
+            <label for="rating" class="form-label col-sm-4">Rating</label>
+            <div class="star-rating" dir="ltr">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" id="ratingValue" name="ratingValue" value="0">
+        </div>            
+        <div class="mb-12">
+            <label for="additionalInfo" class="form-label">Message<span class="required">*</span></label> <br>
+            <textarea class="form-control" id="additionalInfo" rows="4" placeholder="Enter Message" required></textarea>
+        </div>
+        <div class="mb-12 text-center">
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+        </div>
+    </form>
+</body>
+
+<footer>
+    <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
+</footer>
+
+</html>

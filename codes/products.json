@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Chicken Cutlet",
+        "desc": "Crispy Fried Cutlet",
+        "price": 8.99,
+        "image": "Images/Chicken_Cutlet.webp"
+    },
+    {
+        "id": 2,
+        "name": "Grilled Chicken",
+        "desc": "Freshly char grilled chicken",
+        "price": 10.99,
+        "image": "Images/Grilled-Chicken-Overhead-480x270.webp"
+    },
+    {
+        "id": 3,
+        "name": "Honey Roast Chicken",
+        "desc": "Chicken covered in honey and roasted over a flame",
+        "price": 15.99,
+        "image": "Images/Honey Roast Chicken.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Spicy Chicken Wings",
+        "desc": "Hot, refreshing fried chicken wings",
+        "price": 10.99,
+        "image": "Images/SpicyChickenWings-500x375.webp"
+    },
+    {
+        "id": 5,
+        "name": "Steam Chicken Rice",
+        "desc": "Steamed Chicken slices over Warm Rice",
+        "price": 5,
+        "image": "Images/Steam_Chicken_Rice.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Roasted Chicken Rice",
+        "desc": "Roasted Chicken slices over Warm Rice",
+        "price": 5,
+        "image": "Images/Roasted_Chicken_Rice.png"
+    },
+    {
+        "id": 7,
+        "name": "Barbecue Chicken Wings",
+        "desc": "Tender Wings Marinated in savoury BBQ sauce",
+        "price": 10.99,
+        "image": "Images/BBQ-chicken-wings.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Shredded Chicken Macaroni",
+        "desc": "Tender chicken served with Macaroni",
+        "price": 7.99,
+        "image": "Images/Chicken_Macaroni.webp"
+    },
+    {
+        "id": 9,
+        "name": "Sweet and Sour Chicken",
+        "desc": "Chicken dipped in slightly sweet and tangy sauce",
+        "price": 9.99,
+        "image": "Images/Sweet_and_Sour_Chicken.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Chicken Tacos",
+        "desc": "Ripped Chicken and cabbage placed in a soft taco",
+        "price": 10.99,
+        "image": "Images/Chicken_Tacos.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Chicken Meatballs with Gravy",
+        "desc": "Meatballs Cooked with a special savoury mushroom gravy",
+        "price": 13.99,
+        "image": "Images/Chicken-Meatballs.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Butter Chicken",
+        "desc": "Chicken cooked with butter and curry gravy",
+        "price": 15.99,
+        "image": "Images/Butter-Chicken.jpg"
+    }
+]

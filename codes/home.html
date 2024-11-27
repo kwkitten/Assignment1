@@ -6,31 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kat Kafe</title>
     <link rel="stylesheet" href="home.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Delicious+Handrawn&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="navbar">
-        <img src="logo.png" alt="Kat Kafe Logo" class="logo">
-        <h1 class="brand-name">Kat Kafe</h1>
-        <button class="menu-button" id="menuButton">☰</button>
+<header>
+    <div>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Kat Kafe Logo" class="logo">
+            <h1 class="brand-name">Kat Kafe</h1>
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+        </div>
     </div>
-    <div class="menu" id="menu">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
-        </ul> 
-    </div>
-    <script src="home.js"></script>
-        
-    </header>
-    <main>
+</header>
 
+<body>
+    <main>
+        <div class="content-section row">
+            <div class="col-md-6">
+                <img src="images/Blissful Berries.jpg" alt="A picture of 3 fruity and vibrant drinks" class="home-img">
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="info-name"><b>Berry Bliss Trio</b></h2>
+                <p class="info">Bright, fruity, and bursting with flavor — refreshment at its finest. 
+                    Experience our vibrant tea drinks crafted to energize and delight! <br>
+                    Sip on the sweetness of berries and enjoy a refreshing escape! </p>
+            </div>
+        </div>
+
+        <div class="content-section row">
+            <div class="col-md-6">
+                <img src="images/Blissful Berries.jpg" alt="A picture of 3 relaxing and soothing drinks" class="home-img">
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="info-name">Dreamy Tea Delights</h2>
+                <p class="info">Smooth, soothing, and simply irresis-tea-able that feels like a little luxury.
+                    Unwind and recharge with these beautifully crafted tea lattes. <br>
+                    Perfect for moments when you need a little extra comfort and joy!</p>
+            </div>
+        </div>
+
+        <div class="content-section row">
+            <div class="col-md-6">
+                <img src="images/Blissful Berries.jpg" alt="A picture of 3 relaxing and soothing drinks" class="home-img">
+            </div>
+
+            <div class="col-md-6">
+                <h2 class="info-name">Warm Spice Wonders</h2>
+                <p class="info">Cozy up with drinks that wrap you in comfort and flavor. Indulge in the perfect blend of warmth 
+                    and spice with our trio of comforting creations! <br>
+                    Let these handcrafted drinks brighten your day, one cozy sip at a time!</p>
+            </div>
+        </div>
 
     </main>
-
+    <script src="home.js"></script>
 </body>
 
+<footer>
+    <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
+</footer>
 </html>
