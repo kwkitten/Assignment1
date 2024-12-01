@@ -2,9 +2,11 @@ ID Assignment 1
 
 My project is about a website that I have created from scratch. My website is about a company called "Kat Kafe" who sells different kinds of teas. I have also added a page where you can contact them and a payment page so that users are able to purchase the drinks. The home page features a few drinks that has been catergorised to allow people to easily pick a drink of their choice for the correct mood/reason.
 
+
 Design Process
 
-This website is for those people who are looking for a beverage to drink, particularly tea. People who wish to buy a beverage may find a suitable drink on my website and add it to cart, allowing them to purchase the drink. My website provides an easy and convinient way for customers to shop and have a pleasent experience. Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This website is for those people who are looking for a beverage to drink, particularly tea. People who wish to buy a beverage may find a suitable drink on my website and add it to cart, allowing them to purchase the drink. My website provides an easy and convinient way for customers to shop and have a pleasent experience.
+Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things
 
 User Stories:
 
