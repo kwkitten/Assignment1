@@ -1,30 +1,12 @@
-const menuButton = document.getElementById('menuButton');
-const menu = document.getElementById('menu');
-
-menuButton.addEventListener('click', () => {
-  if (menu.style.display === 'block') {
-    menu.style.display = 'none';
-  } else {
-    menu.style.display = 'block';
-  }
-});
-
-// closes the menu when clicked outside
-window.addEventListener('click', (event) => {
-  if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-    menu.style.display = 'none';
-  }
-});
-
 let iconCart = document.querySelector('.icon-cart');
 let closeCart =document.querySelector('.close')
 let body = document.querySelector('body');
-let listProductHTML = document.querySelector('.drinkGrid');
+let listProductHTML = document.querySelector('.listProduct');
 let listCartHTML = document.querySelector('.listCart');
 let iconCartSpan = document.querySelector('.icon-cart span');
 let checkOutButton = document.querySelector('.checkOut');
 
-let drinkGrid = [];
+let listProducts = [];
 let carts = [];
 
 iconCart.addEventListener('click', () => {
@@ -36,14 +18,15 @@ closeCart.addEventListener('click', () => {
 
 const addDatatoHTML = () => {
     listProductHTML.innerHTML = '';
-    if(drinkGrid.length > 0){
-        drinkGrid.forEach(product => {
+    if(listProducts.length > 0){
+        listProducts.forEach(product => {
             let newProduct = document.createElement('div');
             newProduct.classList.add('item');
             newProduct.dataset.id = product.id;
             newProduct.innerHTML = `
                 <img src="${product.image}" alt="">
                 <h2>${product.name}</h2>
+                <hr>
                 <div class="description">${product.desc}</div>
                 <div class="price">$${product.price}</div>
                 <button class="addCart">
@@ -92,9 +75,10 @@ const addCartToHTML = () => {
             let newCart = document.createElement('div');
             newCart.classList.add('item');
             newCart.dataset.id = cart.product_id;
-            let positionProduct = drinkGrid.findIndex((value) => value.id == cart.product_id);
+
+            let positionProduct = listProducts.findIndex((value) => value.id == cart.product_id);
             if (positionProduct !== -1) {
-                let info = drinkGrid[positionProduct];
+                let info = listProducts[positionProduct];
                 newCart.innerHTML = `
                     <div class="image">
                         <img src="${info.image}" alt="">
@@ -168,7 +152,7 @@ const initApp = () => {
     fetch('products.json')
     .then(response => response.json())
     .then(data => {
-        drinkGrid = data;
+        listProducts = data;
         addDatatoHTML();
 
         if(localStorage.getItem('cart')){

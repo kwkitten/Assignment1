@@ -4,35 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="products.css">
-    <link rel="stylesheet" href="home.css">
+    <title>Products: Kat Kafe</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Delicious+Handrawn&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Caveat+Brush&family=Caveat:wght@400..700&family=Delicious+Handrawn&family=Dongle&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="navbar">
-        <img src="images/logo.png" alt="Kat Kafe Logo" class="logo">
-        <h1 class="brand-name">Kat Kafe</h1>
-        <button class="menu-button" id="menuButton">☰</button>
-    </div>
-    <div class="menu" id="menu">
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul> 
-    </div>
-
-    <div class="cartTab">
-        <h2>Shopping Cart</h2>
-        <div class="listCart"></div>
-        <div class="btn">
-            <button class="close">Close</button>
-            <button class="checkOut">Check Out</button>
+<header>
+    <div>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Kat Kafe Logo" class="logo">
+            <h1 class="brand-name">Kat Kafe</h1>
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
         </div>
     </div>
 
@@ -42,86 +34,38 @@
         </svg>
         <span>0</span>
     </div>
+</header>
 
-    <div class ="drinkGrid">
-        <div class ="drink">
-            <img src="images/VelvetVanillaMacha.jpeg" alt="Peachy Pink Cloud" class="drink-img">
-            <h3 class="drink-name">Velvet Vanilla Matcha</h3>
-            <p>A creamy blend of matcha green tea, vanilla bean syrup, and steamed oat milk, topped with a 
-                dusting of matcha powder. Perfect for when you need a smooth and energizing treat!</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Peachy Pink Cloud.webp" alt="Peachy Pink Cloud" class="drink-img">
-            <h3 class ="drink-name">Peachy Pink Cloud</h3>
-            <p>A refreshing iced tea made with peach and hibiscus tea, shaken with coconut milk 
-                and a splash of white peach syrup. Served over ice with a light foam on top for a dreamy look.</p>
-        </div>
-        <div class ="drink">
-            <img src="images/GoldenGlowLatte.webp" alt="Golden Glow Latte" class="drink-img">
-            <h3 class="drink-name">Golden Glow Latte</h3>
-            <p>Turmeric chai tea with honey and steamed almond milk, sprinkled with cinnamon for a 
-                warm and cozy vibe. Great for feeling radiant inside and out.</p>
+<body>
+    <div class="">
+        <div class ="listProduct">
+            <div class ="item">
+                <img src="images/VelvetVanillaMacha.jpeg" alt="Peachy Pink Cloud" class="drink-img">
+                <h2>Velvet Vanilla Matcha</h2>
+                <div class="description">A creamy blend of matcha green tea, vanilla bean syrup, and steamed oat milk, topped with a 
+                    dusting of matcha powder. Perfect for when you need a smooth and energizing treat!</div>
+                <div class="price">$5</div>
+                <button class="addCart">Add To Cart</button>
             </div> 
-        <div class ="drink">
-            <img src="images/Berry Bliss Breeze.png" alt="Berry Bliss Breeze" class="drink-img">
-            <h3 class="drink-name">Berry Bliss Breeze</h3>
-            <p>An iced tea refresher made with blackberry green tea, a splash of lemonade, 
-                and whole raspberries for garnish. Sweet, tangy, and perfect for sunny days.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Toasted Caramel Chai.jpeg" alt="Toasted Caramel Chai" class="drink-img">
-            <h3 class="drink-name">Toasted Caramel Chai</h3>
-            <p>Classic chai tea latte with a swirl of caramel syrup, topped with whipped cream and
-                caramel drizzle. It's like a hug in a cup with a hint of indulgence.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Citrus Spark Fizz.jpg" alt="Citrus Spark Fizz" class="drink-img">
-            <h3 class="drink-name">Citrus Spark Fizz</h3>
-            <p>A sparkling tea blend featuring Earl Grey, orange zest, and a splash of 
-                sparkling water, finished with a twist of lemon. Zesty and uplifting for midday pick-me-ups.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Minty Mocha Matcha.jpeg" alt="Minty Mocha Matcha" class="drink-img">
-            <h3 class="drink-name">Minty Mocha Matcha</h3>
-            <p>A unique combo of matcha, a hint of mocha syrup, and frothy coconut milk, 
-                finished with a dash of crushed mint leaves. Refreshing yet decadent!</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Tropical Twilight Tea.jpeg" alt="Tropical Twilight Tea" class="drink-img">
-            <h3 class="drink-name">Tropical Twilight Tea</h3>
-            <p>A cold brew of passionfruit tea mixed with pineapple juice and 
-                a splash of pomegranate syrup, creating a layered sunset effect in your cup.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Lavender Dream Fog.jpeg" alt="Lavender Dream Fog" class="drink-img">
-            <h3 class="drink-name">Lavender Dream Fog</h3>
-            <p>A calming lavender Earl Grey tea latte, infused with honey and steamed milk, topped with 
-                a sprinkle of dried lavender buds. This drink feels like a warm hug on a dreamy afternoon.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Raspberry Rose Glow.jpeg" alt="Raspberry Rose Glow" class="drink-img">
-            <h3 class="drink-name">Raspberry Rose Glow</h3>
-            <p>A light and floral iced tea made with rosehip tea, raspberry syrup, and a splash of sparkling water, 
-                garnished with edible rose petals and fresh raspberries. Perfect for a refreshing pick-me-up with a luxurious touch.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Coconut Chai Bliss.jpeg" alt="Coconut Chai Bliss" class="drink-img">
-            <h3 class="drink-name">Coconut Chai Bliss</h3>
-            <p>A tropical twist on a classic chai latte, made with spiced chai, creamy coconut milk, 
-                and a drizzle of caramel. Topped with toasted coconut flakes for a taste of the tropics.</p>
-        </div> 
-        <div class ="drink">
-            <img src="images/Blueberry Citrus Sparkler.jpeg" alt="Blueberry Citrus Sparkler" class="drink-img">
-            <h3 class="drink-name">Blueberry Citrus Sparkler</h3>
-            <p>A zesty and sparkling tea featuring a blend of blueberry green tea, fresh orange juice, 
-                and fizzy soda water, garnished with a twist of orange peel and fresh blueberries. A bright and energizing delight!</p>
-        </div> 
-    </div>  
-<script src="home.js"></script>
+        </div>  
+    </div>
+
+    <div class="cartTab">
+        <h2 class="caveat">Shopping Cart</h2>
+        <div class="listCart"></div>
+        <div class="btn">
+            <button class="close caveat">Close</button>
+            <button class="checkOut caveat">Check Out</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
+    </footer>
+<script src="js/home.js" defer></script>
+<script src="js/products.js" defer></script>
 </body>
 
-<footer>
-    <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
-</footer>
+
 
 </html>

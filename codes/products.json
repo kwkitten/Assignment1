@@ -1,86 +1,86 @@
 [
     {
         "id": 1,
-        "name": "Chicken Cutlet",
-        "desc": "Crispy Fried Cutlet",
-        "price": 8.99,
-        "image": "Images/Chicken_Cutlet.webp"
+        "name": "Velvet Vanilla Matcha",
+        "desc": "A creamy blend of matcha green tea, vanilla bean syrup, and steamed oat milk, topped with a dusting of matcha powder. Perfect for when you need a smooth and energizing treat!",
+        "price": 6.99,
+        "image": "images/VelvetVanillaMacha.jpeg"
     },
     {
         "id": 2,
-        "name": "Grilled Chicken",
-        "desc": "Freshly char grilled chicken",
-        "price": 10.99,
-        "image": "Images/Grilled-Chicken-Overhead-480x270.webp"
+        "name": "Peachy Pink Cloud",
+        "desc": "A refreshing iced tea made with peach and hibiscus tea, shaken with coconut milk and a splash of white peach syrup. Served over ice with a light foam on top for a dreamy look.",
+        "price": 8.99,
+        "image": "images/Peachy Pink Cloud.webp"
     },
     {
         "id": 3,
-        "name": "Honey Roast Chicken",
-        "desc": "Chicken covered in honey and roasted over a flame",
+        "name": "Golden Glow Latte",
+        "desc": "Turmeric chai tea with honey and steamed almond milk, sprinkled with cinnamon for a warm and cozy vibe. Great for feeling radiant inside and out.",
         "price": 15.99,
-        "image": "Images/Honey Roast Chicken.jpeg"
+        "image": "images/GoldenGlowLatte.webp"
     },
     {
         "id": 4,
-        "name": "Spicy Chicken Wings",
-        "desc": "Hot, refreshing fried chicken wings",
+        "name": "Berry Bliss Breeze",
+        "desc": "An iced tea refresher made with blackberry green tea, a splash of lemonade, and whole raspberries for garnish. Sweet, tangy, and perfect for sunny days.",
         "price": 10.99,
-        "image": "Images/SpicyChickenWings-500x375.webp"
+        "image": "images/Berry Bliss Breeze.png"
     },
     {
         "id": 5,
-        "name": "Steam Chicken Rice",
-        "desc": "Steamed Chicken slices over Warm Rice",
+        "name": "Toasted Caramel Chai",
+        "desc": "Classic chai tea latte with a swirl of caramel syrup, topped with whipped cream and caramel drizzle. It's like a hug in a cup with a hint of indulgence.",
         "price": 5,
-        "image": "Images/Steam_Chicken_Rice.jpg"
+        "image": "images/Toasted Caramel Chai.jpeg"
     },
     {
         "id": 6,
-        "name": "Roasted Chicken Rice",
-        "desc": "Roasted Chicken slices over Warm Rice",
+        "name": "Citrus Spark Fizz",
+        "desc": "A sparkling tea blend featuring Earl Grey, orange zest, and a splash of sparkling water, finished with a twist of lemon. Zesty and uplifting for midday pick-me-ups.",
         "price": 5,
-        "image": "Images/Roasted_Chicken_Rice.png"
+        "image": "images/Citrus Spark Fizz.jpg"
     },
     {
         "id": 7,
-        "name": "Barbecue Chicken Wings",
-        "desc": "Tender Wings Marinated in savoury BBQ sauce",
+        "name": "Minty Mocha Matcha",
+        "desc": "A unique combo of matcha, a hint of mocha syrup, and frothy coconut milk, finished with a dash of crushed mint leaves. Refreshing yet decadent!",
         "price": 10.99,
-        "image": "Images/BBQ-chicken-wings.jpg"
+        "image": "images/Minty Mocha Matcha.jpeg"
     },
     {
         "id": 8,
-        "name": "Shredded Chicken Macaroni",
-        "desc": "Tender chicken served with Macaroni",
+        "name": "Tropical Twilight Tea",
+        "desc": "A cold brew of passionfruit tea mixed with pineapple juice and a splash of pomegranate syrup, creating a layered sunset effect in your cup.",
         "price": 7.99,
-        "image": "Images/Chicken_Macaroni.webp"
+        "image": "images/Tropical Twilight Tea.jpeg"
     },
     {
         "id": 9,
-        "name": "Sweet and Sour Chicken",
-        "desc": "Chicken dipped in slightly sweet and tangy sauce",
+        "name": "Lavender Dream Fog",
+        "desc": "A calming lavender Earl Grey tea latte, infused with honey and steamed milk, topped with a sprinkle of dried lavender buds. This drink feels like a warm hug on a dreamy afternoon.",
         "price": 9.99,
-        "image": "Images/Sweet_and_Sour_Chicken.jpg"
+        "image": "images/Lavender Dream Fog.jpeg"
     },
     {
         "id": 10,
-        "name": "Chicken Tacos",
-        "desc": "Ripped Chicken and cabbage placed in a soft taco",
+        "name": "Raspberry Rose Glow",
+        "desc": "A light and floral iced tea made with rosehip tea, raspberry syrup, and a splash of sparkling water, garnished with edible rose petals and fresh raspberries. Perfect for a refreshing pick-me-up with a luxurious touch.",
         "price": 10.99,
-        "image": "Images/Chicken_Tacos.jpg"
+        "image": "images/Raspberry Rose Glow.jpeg"
     },
     {
         "id": 11,
-        "name": "Chicken Meatballs with Gravy",
-        "desc": "Meatballs Cooked with a special savoury mushroom gravy",
+        "name": "Coconut Chai Bliss",
+        "desc": "A tropical twist on a classic chai latte, made with spiced chai, creamy coconut milk, and a drizzle of caramel. Topped with toasted coconut flakes for a taste of the tropics.",
         "price": 13.99,
-        "image": "Images/Chicken-Meatballs.jpg"
+        "image": "images/Coconut Chai Bliss.jpeg"
     },
     {
         "id": 12,
-        "name": "Butter Chicken",
-        "desc": "Chicken cooked with butter and curry gravy",
+        "name": "Blueberry Citrus Sparkler",
+        "desc": "A zesty and sparkling tea featuring a blend of blueberry green tea, fresh orange juice, and fizzy soda water, garnished with a twist of orange peel and fresh blueberries. A bright and energizing delight!",
         "price": 15.99,
-        "image": "Images/Butter-Chicken.jpg"
+        "image": "images/Blueberry Citrus Sparkler.jpeg"
     }
 ]

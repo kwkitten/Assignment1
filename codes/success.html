@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kat Kafe</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Caveat+Brush&family=Caveat:wght@400..700&family=Delicious+Handrawn&family=Dongle&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="home.js" defer></script>
+</head>
+
+<header>
+    <div>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Kat Kafe Logo" class="logo">
+            <h1 class="brand-name">Kat Kafe</h1>
+            <button class="menu-button" id="menuButton">☰</button>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul> 
+        </div>
+    </div>
+</header>
+
+<h1 class="caveat"><b>Payment Successful!</b></h1>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="submit-text text-center delicious-handrawn-regular">Thank You for Your Purchase!</h2>
+        <p class="text-center delicious-handrawn-regular">Your order has been processed successfully.</p>
+
+        <div class="order-summary mt-4">
+            <h3 class="delicious-handrawn-regular">Order Summary:</h3>
+            <table class="table">
+                <thead>
+                    <tr class="delicious-handrawn-regular">
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="order-summary-body" class="delicious-handrawn-regular">
+                </tbody>
+                <tfoot>
+                    <tr class="delicious-handrawn-regular">
+                        <td colspan="2" class="text-right"><b>Total:</b></td>
+                        <td id="order-total"><b>$0.00</b></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <div class="text-center mt-4 delicious-handrawn-regular">
+            <p class="doubt ">If you have any questions about your order, please contact our support team.</p>
+            <a href="index.html" class="btn btn-primary">Return to Home</a>
+        </div>
+    </div>
+    <script>
+        const orderSummaryBody = document.getElementById('order-summary-body');
+        const orderTotalElement = document.getElementById('order-total');
+        let listProducts = [];
+    
+        const loadProducts = () => {
+            return fetch('products.json')
+                .then(response => response.json())
+                .then(data => {
+                    listProducts = data;
+                });
+        };
+    
+        loadProducts().then(() => {
+            const orderSummary = JSON.parse(sessionStorage.getItem('orderSummary'));
+            let total = 0;
+    
+            if (orderSummary && orderSummary.length > 0) {
+                orderSummary.forEach(cartItem => {  
+                    const product = listProducts.find(item => item.id == cartItem.product_id);
+                    if (product) {
+                        const itemTotal = product.price * cartItem.quantity;
+                        total += itemTotal;
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${product.name}</td> <!-- Use the found product's name -->
+                            <td>${cartItem.quantity}</td>
+                            <td>$${itemTotal.toFixed(2)}</td>
+                        `;
+                        orderSummaryBody.appendChild(row);
+                    }
+                });
+                orderTotalElement.innerHTML = `<b>$${total.toFixed(2)}</b>`;
+            }
+    
+            sessionStorage.removeItem('orderSummary');
+        });
+    </script>
+
+    <footer>
+        <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
+    </footer>
+    <script src="js/home.js" defer></script>
+</body>
+
+</html>

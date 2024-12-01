@@ -1,0 +1,1412 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-color: #dfdcff;
+  padding-top: 50px;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+  padding-top: 0px;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 8px;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  overflow: visible; /* 2 */
+  height: 5px;
+  background: #0000006b;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* aligns text to center */
+.text-center{
+  text-align: center;
+}
+
+/* General body and text styling */
+body p {
+  font-size: 17px; /* Sets default font size for paragraphs */
+  margin-top: 5px; /* Adds space above paragraphs */
+}
+
+/* Header styles */
+h2 {
+  text-align: center; /* Centers the text horizontally */
+  padding: 25px; /* Adds space inside the header */
+  font-size: 30px; /* Sets a larger font size */
+  display: flex; /* Enables flexible box layout */
+}
+
+/* Navigation Bar */
+.navbar {
+  position: fixed; /* Keeps the navbar at the top during scrolling */
+  top: 0; /* Aligns it to the top of the page */
+  left: 0; /* Aligns it to the left edge of the page */
+  width: 100%; /* Stretches the navbar across the width of the page */
+  background-color: #000000; /* Sets a black background */
+  display: flex; /* Creates a flexible layout for navbar items */
+  align-items: center; /* Vertically centers items */
+  justify-content: space-between; /* Distributes items with space between */
+  padding: 20px 15px; /* Adds padding inside the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+  z-index: 3; /* Ensures it appears above other elements */
+  height: 90px; /* Sets the navbar height */
+  box-sizing: border-box; /* Includes padding in the element's width and height */
+}
+
+/* Menu button styling */
+.menu-button {
+  position: fixed; /* Fixes the button's position */
+  right: 0; /* Aligns it to the right edge of the screen */
+  background-color: #d04895; /* Sets a pinkish background */
+  color: white; /* Changes text color to white */
+  border: none; /* Removes border */
+  padding: 8px 15px; /* Adds internal padding */
+  font-size: 16px; /* Sets font size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  border-radius: 5px; /* Adds rounded corners */
+  margin-right: 25px; /* Adds space on the right */
+}
+
+/* Hover effect for the menu button */
+.menu-button:hover {
+  background-color: #a93881; /* Darkens the button on hover */
+}
+
+/* Branding */
+.brand-name {
+  font-size: 60px; /* Large font size for visibility */
+  color: #ffffff; /* White text */
+  margin: 0; /* Removes default margin */
+  text-align: center; /* Centers the text */
+  flex-grow: 1; /* Allows it to expand within a flex container */
+  font-family: "Bokor", system-ui; /* Custom font for a fancy look */
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Regular font style */
+  letter-spacing: 15px; /* Adds spacing between letters */
+}
+
+/* Logo styling */
+.logo {
+  height: 70px; /* Sets the height */
+  margin-left: 0px; /* Aligns logo to the left */
+}
+
+/* Dropdown Menu */
+.menu {
+  display: none; /* Hides the menu by default */
+  position: fixed; /* Fixes it relative to the viewport */
+  top: 65px; /* Positions below the navbar */
+  right: 0; /* Aligns to the right edge */
+  background-color: white; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px; /* Sets a fixed width */
+  z-index: 4; /* Positions above other elements */
+}
+
+/* Menu list */
+.menu ul {
+  list-style-type: none; /* Removes default bullet points */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  text-align: center; /* Centers the menu items */
+}
+
+.menu li {
+  border-bottom: 2px solid #ddd; /* Adds a separator between items */
+}
+
+.menu li:last-child {
+  border-bottom: none; /* Removes the border from the last item */
+}
+
+.menu a {
+  display: block; /* Makes the links behave like block elements */
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark gray text */
+  padding: 10px 15px; /* Adds padding around the links */
+  transition: background-color 0.3s; /* Adds a smooth hover effect */
+}
+
+.menu a:hover {
+  background-color: #f4f4f9; /* Changes background color on hover */
+}
+
+/* Content sections styling */
+.content-section {
+  display: flex; /* Enables flexbox for layout */
+  align-items: stretch; /* Ensures elements have equal height */
+  margin: 30px; /* Adds space around the section */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #a699e2; /* Light purple background */
+  justify-content: space-evenly; /* Distributes elements evenly */
+}
+
+.content-section div {
+  display: flex; /* Flexbox for inner elements */
+  flex-direction: column; /* Stacks elements vertically */
+  justify-content: center; /* Centers content vertically */
+  padding: 40px; /* Adds internal padding */
+  text-align: center; /* Centers text */
+}
+
+.content-section img {
+  max-width: 100%; /* Ensures images don't overflow */
+  border-radius: 60%; /* Circular image styling */
+  object-fit: cover; /* Ensures the image covers the container */
+  height: 350px; /* Fixed height */
+}
+
+/* About Us Page */
+/* Style for the image in the about section */
+.about-content-section img {
+  max-width: 100%; /* Ensures image scales responsively */
+  border-radius: 8px; /* Adds rounded corners */
+  object-fit: cover; /* Ensures image maintains aspect ratio while filling the space */
+  height: 350px; /* Fixed height for consistency */
+  width: 500px; /* Fixed width for consistency */
+}
+
+/* Style for divs inside the about content section */
+.about-content-section div {
+  display: flex; /* Aligns content in a flexible way */
+  flex-direction: column; /* Stacks content vertically */
+  justify-content: center; /* Centers content vertically */
+  padding: 40px; /* Adds space inside the div */
+  text-align: center; /* Centers text alignment */
+}
+
+/* Overall styling for the about section */
+.about-content-section {
+  display: flex; /* Lays out child elements side by side */
+  align-items: stretch; /* Ensures children match the parent's height */
+  margin: 20px; /* Adds space around the section */
+  background-color: #a699e2; /* Sets background color */
+  justify-content: space-evenly; /* Even spacing between children */
+  border-radius: 8px; /* Adds rounded corners */
+}
+
+/* Vision Section */
+/* Styling for the entire visions section */
+.visions {
+  display: flex; /* Aligns items side by side */
+  align-items: stretch; /* Makes child elements the same height */
+  margin: 20px; /* Adds spacing outside the section */
+  justify-content: space-evenly; /* Distributes space evenly between children */
+  border-radius: 8px; /* Rounds the edges */
+  gap: 20px; /* Adds space between boxes */
+}
+
+/* Style for individual vision boxes */
+.visions div {
+  background-color: #a699e2; /* Background color for contrast */
+  border-radius: 8px; /* Matches the section's radius */
+  padding: 20px; /* Adds internal spacing */
+  text-align: center; /* Centers text inside each box */
+  flex: 1; /* Ensures equal width for all boxes */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle depth */
+}
+
+/* Styling headers within the visions section */
+.visions h2 {
+  text-align: center; /* Centers the heading */
+  margin-bottom: 0px; /* Removes extra space below the heading */
+  padding: 5px; /* Adds spacing inside */
+}
+
+.visions h3 {
+  font-size: 30px; /* Larger font for emphasis */
+  margin-top: 5px; /* Adds slight spacing above */
+}
+
+.visions h4 {
+  margin-top: 5px; /* Adds spacing above */
+  font-size: 21px; /* Sets font size */
+}
+
+/* History Section */
+.history {
+  margin-bottom: 5px; /* Spacing below the history section */
+  align-items: center; /* Centers content vertically */
+  display: flex; /* Flexible layout for alignment */
+  text-align: center; /* Centers text */
+  justify-content: center; /* Centers content horizontally */
+  font-size: 35px; /* Larger font for titles */
+}
+
+/* About Text Section */
+.about {
+  margin-top: 5px; /* Adds space above */
+  width: 600px; /* Sets a fixed width */
+  margin-left: 40px; /* Adds left margin */
+  font-size: 23px; /* Sets font size */
+}
+
+/* Team Section */
+/* Styling for the team section layout */
+.team {
+  display: flex; /* Aligns child elements horizontally */
+  align-items: stretch; /* Makes children equal in height */
+  margin: 40px; /* Spacing around the section */
+  margin-top: 5px; /* Additional top margin */
+  justify-content: space-evenly; /* Evenly spaces children */
+  border-radius: 8px; /* Rounded corners */
+  gap: 40px; /* Space between boxes */
+}
+
+/* Styling for individual team member boxes */
+.team div {
+  background-color: #a699e2; /* Sets background color */
+  border-radius: 8px; /* Matches the section's radius */
+  padding: 20px; /* Adds internal padding */
+  text-align: center; /* Centers the text */
+  flex: 1; /* Ensures equal width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+/* Styling for team member images */
+.team img {
+  max-width: 70%; /* Limits the size of the image */
+  border-radius: 60%; /* Circular profile images */
+  object-fit: cover; /* Ensures proper aspect ratio */
+}
+
+/* Team Section Headings and Descriptions */
+.team h3 {
+  font-size: 35px; /* Larger font for emphasis */
+}
+
+.team h4 {
+  font-size: 28px; /* Slightly smaller font for subheadings */
+}
+
+.team p {
+  font-size: 20px; /* Medium font for descriptions */
+}
+
+/* Section Header for "Our Team" */
+.Ourteam {
+  margin-bottom: 5px; /* Space below the header */
+  justify-content: center; /* Centers the content */
+  font-size: 50px; /* Large font for emphasis */
+}
+
+/* Home Page Contents */
+/* Styling for the main name/title text on the home page */
+.info-name {
+  font-size: 60px; /* Large font size for the main heading */
+  margin-bottom: 10px; /* Adds space below the heading */
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the text horizontally */
+}
+
+/* Styling for additional informational text */
+.info {
+  font-size: 30px; /* Medium-large font size for readability */
+  width: 500px; /* Fixed width for consistency */
+}
+
+/* Success Page */
+/* Styling for the submission success message */
+.submit-text {
+  display: block; /* Ensures the message takes up a full line */
+}
+
+/* Footer */
+/* Styling for the footer to keep it at the bottom of the page */
+footer {
+  background-color: #000000; /* Sets a black background color */
+  padding: 20px 20px; /* Adds padding for content spacing */
+  position: relative; /* Relative positioning for layout adjustment */
+  bottom: 0; /* Sticks the footer to the bottom of its container */
+  width: 100%; /* Makes the footer span the full width of the page */
+  height: 100px; /* Fixed height for the footer */
+  display: block; /* Ensures it's treated as a block element */
+  box-sizing: border-box; /* Includes padding and border in the total size */
+  align-content: center; /* Centers content vertically */
+}
+
+/* Styling for the footer text */
+.footer {
+  color: #ddd; /* Light gray color for text */
+  font-size: 15px; /* Small font size for footer text */
+  margin-left: 20px; /* Adds left spacing */
+  margin-top: 10px; /* Adds top spacing */
+}
+
+/* Styling for all paragraph elements globally */
+p {
+  font-size: 13px; /* Small font size for general text */
+  margin-block-start: 8px; /* Space above paragraphs */
+}
+
+/* Layout Container */
+/* General container styling to improve layout structure */
+.container {
+  width: 900px; /* Fixed maximum width */
+  max-width: 90vw; /* Ensures responsiveness on smaller screens */
+  margin: auto; /* Centers the container horizontally */
+  margin-bottom: 100px; /* Adds space below the container */
+  text-align: center; /* Centers text content */
+  align-items: center; /* Centers items vertically */
+  padding-top: 10px; /* Adds spacing above the content */
+  transition: transform 0.5s; /* Smooth transition effect for animations */
+}
+
+/* Shopping Cart */
+/* Styling for SVG icons used in the shopping cart */
+svg {
+  width: 30px; /* Sets a fixed width for SVG icons */
+}
+
+/* Header */
+/* Styling for the website's header */
+header {
+  display: flex; /* Enables flexbox layout */
+  align-items: center; /* Centers items vertically */
+  justify-content: space-between; /* Spreads items to opposite edges */
+  padding: 20px 0; /* Vertical padding for spacing */
+}
+
+/* Styling for the cart icon in the header */
+header .icon-cart {
+  position: relative; /* Allows for positioning child elements relative to this */
+  margin-right: 30px; /* Adds space to the right of the icon */
+}
+
+/* Notification bubble on the cart icon */
+header .icon-cart span {
+  display: inline-flex; /* Aligns child elements in a row */
+  width: 22px; /* Sets the width of the bubble */
+  height: 22px; /* Sets the height of the bubble */
+  background-color: red; /* Red background for visibility */
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  color: #fff; /* White text color for contrast */
+  border-radius: 50%; /* Makes the bubble circular */
+  position: absolute; /* Allows positioning relative to the icon-cart */
+  top: 70px; /* Positioning from the top of the parent */
+  right: -8px; /* Slightly offsets to the left of the parent */
+  font-size: 13px; /* Small font for the notification number */
+}
+
+/* Cart SVG styling */
+.icon-cart svg {
+  width: 38px; /* Slightly larger size for the icon */
+  height: 38px; /* Matches the width for a square icon */
+  margin-top: 50px; /* Adds spacing above the icon */
+  cursor: pointer; /* Changes the cursor to indicate interactivity */
+}
+
+/* Shopping Cart List */
+/* Styling for product images inside the shopping cart */
+.listProduct .item img {
+  width: 90%; /* Limits the image width to 90% of its container */
+  height: 180px; /* Fixed height for consistency */
+  border-radius: 70%; /* Creates a circular/oval shape for the image */
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+  margin-left: 10px; /* Adds spacing on the left */
+  margin-top: 5px; /* Adds spacing above the image */
+}
+
+/* Grid layout for the product list */
+.listProduct {
+  display: grid; /* Enables a grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Four equally spaced columns */
+  gap: 20px; /* Spacing between grid items */
+  margin-top: 5px; /* Adds top margin */
+  margin: 30px; /* Adds outer spacing */
+  justify-items: center; /* Centers items horizontally */
+}
+
+/* Individual product styling */
+.listProduct .item {
+  display: flex; /* Enables flexbox layout */
+  flex-direction: column; /* Aligns children vertically */
+  justify-content: space-between; /* Spreads children evenly */
+  background-color: #a699e2; /* Light purple background color */
+  padding: 20px; /* Inner spacing for content */
+  border-radius: 20px; /* Rounds the corners */
+  width: 200px; /* Fixed width for each product */
+  align-items: center; /* Centers content horizontally */
+  font-family: "Dongle", sans-serif; /* Sets a clean, simple font */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Default font style */
+}
+
+/* Styling for product descriptions */
+.listProduct .item .description {
+  font-family: "Dongle", sans-serif; /* Consistent font style */
+  font-weight: 400;
+  font-style: normal;
+  display: flex; /* Enables flexbox for potential inner elements */
+  text-align: center; /* Centers text content */
+  font-size: 20px; /* Medium font size */
+}
+
+/* Styling for product titles */
+.listProduct .item h2 {
+  font-weight: 500; /* Slightly bold for emphasis */
+  font-size: 23px; /* Medium font size */
+  padding: 15px; /* Inner spacing */
+  margin-bottom: 0px; /* Removes bottom margin */
+  margin-top: 10px; /* Adds top spacing */
+  font-family: "Delicious Handrawn", serif; /* Decorative font for titles */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Styling for product prices */
+.listProduct .item .price {
+  letter-spacing: 1px; /* Adds spacing between letters */
+  font-size: 22px; /* Medium font size */
+  padding: 10px; /* Inner spacing */
+}
+
+/* Styling for add-to-cart buttons */
+.listProduct .item button {
+  background-color: #43dda7b0; /* Light green background color */
+  color: rgb(0, 0, 0); /* Black text color */
+  padding: 5px 10px; /* Inner spacing */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: auto; /* Pushes button to the bottom of the container */
+  border: none; /* Removes border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 22px; /* Medium font size */
+}
+
+/* Shopping Cart Icon */
+/* Styling for the cart sidebar */
+.cartTab {
+  padding-top: 90px; /* Adds spacing at the top */
+  width: 400px; /* Fixed width for the sidebar */
+  background-color: black; /* Black background color */
+  color: #eee; /* Light gray text color */
+  position: fixed; /* Fixes the sidebar position */
+  inset: 0 -400px 0 auto; /* Initially hidden off-screen */
+  display: grid; /* Grid layout for sections */
+  grid-template-rows: 70px 1fr 70px; /* Header, body, and footer sections */
+  transition: 0.5s; /* Smooth transition for toggling */
+}
+
+/* Active state to show the cart */
+body.showCart .cartTab {
+  inset: 0 0 0 auto; /* Moves the sidebar into view */
+}
+
+/* Moves the main container when the cart is shown */
+body .showCart .container {
+  transform: translateX(-250px);
+}
+
+/* Header styling inside the cart */
+.cartTab h2 {
+  padding: 20px; /* Inner spacing */
+  margin: 0; /* Removes default margin */
+  font-weight: 300; /* Light font weight */
+  display: block; /* Block-level element */
+}
+
+/* Button container inside the cart */
+.cartTab .btn {
+  display: grid; /* Grid layout for buttons */
+  grid-template-columns: repeat(2, 1fr); /* Two equally sized buttons */
+  padding: 10px; /* Inner spacing */
+}
+
+/* Generic button styling */
+.cartTab .btn button {
+  background-color: #E8BC0E; /* Yellow background for visibility */
+  border: none; /* Removes border */
+  font-weight: 500; /* Medium font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Close button styling */
+.cartTab .btn .close {
+  background-color: #eee; /* Light gray background */
+  font-size: 25px; /* Large font size */
+}
+
+/* Checkout button styling */
+.cartTab .btn .checkOut {
+  font-size: 25px; /* Large font size */
+}
+
+/* Product list inside the cart */
+.cartTab .listCart .item img {
+  width: 100%; /* Full width for images */
+}
+
+/* Layout for cart items */
+.cartTab .listCart .item {
+  display: grid; /* Grid layout for items */
+  grid-template-columns: 70px 150px 50px 1fr; /* Image, name, quantity, and price */
+  gap: 10px; /* Spacing between columns */
+  text-align: center; /* Centers text */
+  align-items: center; /* Centers content vertically */
+  padding: 10px; /* Inner spacing */
+}
+
+/* Styling for item names */
+.cartTab .listCart .name {
+  font-family: "Delicious Handrawn", serif; /* Decorative font */
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Default style */
+}
+
+/* Styling for total prices */
+.cartTab .listCart .totalPrice {
+  font-family: "Dongle", sans-serif; /* Consistent font family */
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px; /* Medium font size */
+}
+
+/* Quantity control styling */
+.listCart .quantity {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers content horizontally */
+  font-family: "Dongle", sans-serif; /* Consistent font family */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Styling for quantity buttons */
+.listCart .quantity span {
+  display: inline-block; /* Inline but behaves like a block */
+  width: 25px; /* Fixed width */
+  height: 25px; /* Fixed height */
+  background-color: #eee; /* Light gray background */
+  color: #555; /* Dark gray text */
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 24px; /* Large font size */
+}
+
+/* Transparent styling for inactive quantity button */
+.listCart .quantity span:nth-child(2) {
+  background-color: transparent;
+  color: #eee; /* Matches background for invisibility */
+}
+
+/* Styling for alternating item backgrounds */
+.listCart .item:nth-child(even) {
+  background-color: rgba(210, 210, 210, 0.533); /* Light gray background with transparency */
+}
+
+/* Enables scrolling for the cart item list */
+.listCart {
+  overflow: auto; /* Allows scrolling when content overflows */
+}
+
+/* Hides the scrollbar */
+.listCart::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Adds rounded corners to cart images */
+.cartTab .listCart img {
+  border-radius: 8px; /* Small corner rounding */
+}
+
+/* Center table and set style for success page */
+/* Styling for tables */
+table {
+  border-collapse: collapse; /* Removes space between borders */
+  width: 80%; /* 80% of the container width */
+  margin: 0 auto; /* Centers the table horizontally */
+  margin-bottom: 20px; /* Adds spacing below the table */
+}
+
+/* Styling for table cells */
+th, td {
+  border: 2px solid #774acc; /* Purple border color */
+  padding: 10px; /* Inner spacing */
+  text-align: left; /* Aligns text to the left */
+  letter-spacing: 1px; /* Adds spacing between letters */
+  font-size: 20px; /* Medium font size */
+}
+
+/* Header row styling */
+th {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for the total row */
+tfoot td {
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Generic margin for additional content */
+.doubt {
+  margin-bottom: 30px; /* Adds spacing below the element */
+}
+
+/* Form Container */
+/* General styling for forms */
+form {
+  background-color: #fff; /* White background for a clean look */
+  padding: 20px; /* Inner spacing around the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 40px; /* Outer spacing from other elements */
+  letter-spacing: 1px; /* Adds spacing between letters for readability */
+}
+
+/* Labels for form inputs */
+.form-label {
+  font-weight: bold; /* Emphasizes the label */
+  display: block; /* Ensures it takes a full line */
+  margin-bottom: 5px; /* Adds space below the label */
+  font-size: 17px; /* Slightly larger text for clarity */
+}
+
+/* Inputs and textareas in the form */
+.form-control {
+  width: 98%; /* Almost full width, leaving small side margins */
+  padding: 10px; /* Inner spacing for comfort */
+  font-size: 14px; /* Medium text size */
+  border: 1px solid #ccc; /* Light gray border for subtlety */
+  border-radius: 4px; /* Softens corners */
+  margin-bottom: 15px; /* Spacing between fields */
+  box-sizing: border-box; /* Includes padding and border in the element’s width */
+  letter-spacing: 1px; /* Adds space between letters */
+}
+
+/* Special rule for textareas */
+textarea.form-control {
+  resize: none; /* Prevents resizing by the user */
+}
+
+/* Payment Title */
+/* Large text size for emphasis on payment sections */
+.payment {
+  font-size: 50px; /* Extra large font size for headers */
+}
+
+.paymentSub {
+  font-size: 20px; /* Smaller subheading for context */
+}
+
+/* Form Row Layout */
+/* Creates a horizontal layout for form rows */
+.form-row {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Spreads items evenly */
+  gap: 30px; /* Adds spacing between columns */
+  box-sizing: border-box; /* Ensures padding/borders are included in size */
+}
+
+/* Each column within a row */
+.form-col {
+  flex: 1; /* Ensures columns are equally sized */
+  width: 48%; /* Limits width to balance the layout */
+  box-sizing: border-box;
+}
+
+/* Star Rating */
+/* Layout for star rating elements */
+.star-rating {
+  display: flex; /* Enables horizontal alignment of stars */
+  justify-content: flex-start; /* Aligns stars to the left */
+  margin-bottom: 15px; /* Adds spacing below the rating */
+  letter-spacing: 10px; /* Adds space between stars */
+}
+
+/* Default style for stars */
+.star {
+  font-size: 28px; /* Large star size for visibility */
+  color: #ccc; /* Gray color for unselected stars */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Styling for selected stars */
+.star.selected {
+  color: gold; /* Highlighted color for selected stars */
+}
+
+/* Required Field Indicator */
+.required {
+  color: red; /* Red to indicate importance */
+  margin-left: 4px; /* Spacing next to the field label */
+}
+
+/* Primary Button */
+/* Styling for buttons */
+.btn-primary {
+  background-color: #007bff; /* Blue background for emphasis */
+  color: #fff; /* White text for contrast */
+  padding: 10px; /* Inner spacing */
+  border: none; /* Removes default borders */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Medium text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+  width: 20%; /* Fixed width for uniform size */
+}
+
+/* Hover state for buttons */
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue for hover state */
+}
+
+/* Sub Text */
+.subText {
+  font-size: 18px; /* Slightly larger font for additional details */
+}
+
+/* Title Styling */
+/* Centered and prominent styling for section titles */
+.title {
+  margin-top: 30px; /* Adds spacing above the title */
+  margin-bottom: 0px; /* Removes spacing below */
+  text-align: center; /* Centers the title */
+  justify-content: center; /* Centers content */
+  display: flex; /* Enables flexible alignment */
+  font-size: 50px; /* Extra large font for headers */
+}
+
+/* Contact Info Section */
+/* Styling for contact information block */
+.contactInfo {
+  background-color: #fff; /* White background for consistency */
+  padding: 20px; /* Inner spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle depth */
+  margin: 40px; /* Outer spacing */
+  margin-top: 20px; /* Slightly reduced top margin */
+  letter-spacing: 1px; /* Improves readability */
+}
+
+/* Other Contact Information */
+/* Large font size for alternative contact details */
+.otherContact {
+  justify-content: center; /* Centers the text */
+  margin-bottom: 5px; /* Adds slight spacing below */
+  padding: 5px; /* Inner spacing */
+  margin-top: 40px; /* Adds spacing above */
+  font-size: 45px; /* Large font size */
+}
+
+/* Font Styles */
+/* "Caveat" font styling */
+.caveat {
+  font-family: "Caveat", cursive; /* Playful, cursive font */
+  font-optical-sizing: auto; /* Ensures optimal font rendering */
+  font-weight: 300; /* Light weight for elegance */
+  font-style: normal; /* Default font style */
+}
+
+/* "Delicious Handrawn" font styling */
+.delicious-handrawn-regular {
+  font-family: "Delicious Handrawn", serif; /* Hand-drawn serif font */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Default font style */
+}
+
+/* "Dongle" font styling */
+.dongle-regular {
+  font-family: "Dongle", sans-serif; /* Modern sans-serif font */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Default font style */
+}
+
+/* Media Query for Screen Sizes 968px or Smaller */
+@media (max-width: 968px) {
+  /* Navbar adjustments */
+  .navbar {
+    padding: 8px 10px; /* Reduces padding for a more compact layout */
+    height: 65px; /* Adjusts height for smaller screens */
+    width: 100%; /* Ensures full width coverage */
+  }
+
+  header {
+    padding-top: 0px; /* Removes extra spacing above the header */
+  }
+
+  .brand-name {
+    font-size: 35px; /* Shrinks brand name text size */
+  }
+
+  .menu-button {
+    padding: 6px 12px; /* Reduces button size */
+    font-size: 14px; /* Adjusts text size for better fit */
+    margin-right: 10px; /* Spacing between buttons */
+  }
+
+  .menu {
+    width: 100%; /* Expands menu to full width */
+    right: 0; /* Positions menu correctly */
+    top: 60px; /* Adjusts vertical position */
+  }
+
+  .menu a {
+    padding: 10px; /* Reduces spacing for better alignment */
+  }
+
+  .logo {
+    height: 40px; /* Shrinks logo for smaller screens */
+  }
+
+  /* Title adjustments */
+  .title {
+    margin-top: 10px; /* Adds spacing above the title */
+    padding: 20px; /* Inner padding for the title */
+    font-size: 30px; /* Scales down title font size */
+  }
+
+  /* Product list adjustments for grid layout */
+  .listProduct {
+    grid-template-columns: repeat(2, 1fr); /* Reduces columns for smaller screens */
+    margin: 50px; /* Adjusts spacing around product grid */
+    margin-top: 5px; /* Reduces top margin */
+    gap: 20px; /* Adds space between grid items */
+    font-size: 10px; /* Reduces font size for compactness */
+  }
+
+  .listProduct .item h2 {
+    font-size: 13px; /* Adjusts product title size */
+  }
+
+  .listProduct .item img {
+    width: 90px; /* Reduces image width */
+    height: 90px; /* Reduces image height */
+    border-radius: 70%; /* Keeps images circular */
+  }
+
+  .listProduct .item {
+    width: 100px; /* Shrinks product card width */
+  }
+
+  .listProduct div {
+    font-family: "Dongle", sans-serif; /* Ensures consistent typography */
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .listCart .quantity {
+    font-size: 24px; /* Adjusts font size for quantity selector */
+  }
+
+  div.description {
+    text-align: center; /* Centers description text */
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .listProduct .item .price {
+    font-size: 10px; /* Shrinks price font size */
+  }
+
+  /* Section content adjustments */
+  .content-section {
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers content */
+  }
+
+  .content-section .padding {
+    padding-bottom: 5px; /* Adjusts bottom padding */
+    padding-top: 50px; /* Adds top padding */
+  }
+
+  .content-section div {
+    justify-content: center; /* Centers content in divs */
+  }
+
+  .content-section div img {
+    height: 200px; /* Adjusts image height */
+  }
+
+  .info-name {
+    margin-top: 10px; /* Reduces top margin */
+    font-size: 30px; /* Adjusts font size */
+  }
+
+  .info {
+    font-size: 25px; /* Scales down info text size */
+    width: 300px; /* Shrinks width */
+  }
+
+  hr {
+    margin-bottom: 10px; /* Reduces bottom margin */
+    height: 3px; /* Shrinks horizontal rule height */
+  }
+
+  .content-section img {
+    max-width: 500px; /* Limits maximum width */
+    height: 500px; /* Adjusts image height */
+  }
+
+  .cartTab {
+    padding-top: 90px; /* Adjusts top padding */
+    width: 100%; /* Expands width to full screen */
+    inset: 0 -1000px 0 auto; /* Adjusts positioning */
+    display: grid; /* Ensures grid layout */
+    grid-template-rows: 70px 1fr 70px; /* Defines grid structure */
+    transition: 0.5s; /* Smooth transition for cart tab */
+  }
+
+  /* Footer adjustments */
+  .footer {
+    font-size: 15px; /* Adjusts footer text size */
+  }
+
+  footer {
+    height: 70px; /* Shrinks footer height */
+  }
+
+  /* Form adjustments */
+  .form-label {
+    font-size: 12px; /* Reduces label font size */
+  }
+
+  .form-control {
+    font-size: 10px; /* Shrinks input font size */
+    letter-spacing: 1px; /* Adds slight letter spacing */
+  }
+
+  .btn-primary {
+    font-size: 12px; /* Reduces button font size */
+    width: 40%; /* Shrinks button width */
+  }
+
+  form {
+    margin: 0; /* Removes default margin */
+    margin-top: 10px; /* Adds small top margin */
+  }
+
+  form div {
+    padding: 10px; /* Adds padding to form elements */
+  }
+
+  /* About section adjustments */
+  .about-content-section img {
+    height: 250px; /* Adjusts image height */
+    width: 300px; /* Adjusts image width */
+  }
+
+  .about-content-section div {
+    padding: 30px; /* Adds padding around content */
+    align-items: center; /* Centers content */
+  }
+
+  .about-content-section {
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Centers content */
+  }
+
+  /* Vision section adjustments */
+  .visions {
+    flex-direction: column; /* Stacks vision elements vertically */
+  }
+
+  .visions h2 {
+    font-size: 20px; /* Reduces font size for h2 */
+    margin-top: 5px; /* Adds small top margin */
+  }
+
+  .visions h3 {
+    font-size: 20px; /* Adjusts font size for h3 */
+  }
+
+  .visions h4 {
+    font-size: 14px; /* Shrinks font size for h4 */
+    margin: 5px; /* Adds spacing around h4 */
+  }
+
+  /* History and about section */
+  .history {
+    margin-bottom: 5px; /* Adds small bottom margin */
+    margin-top: 0px; /* Removes top margin */
+    align-items: center; /* Centers content */
+  }
+
+  .about {
+    margin-top: 5px; /* Adds spacing above */
+    width: 300px; /* Shrinks width */
+    margin-left: 0px; /* Removes left margin */
+    font-size: 18px; /* Adjusts text size */
+  }
+
+  /* Team section adjustments */
+  .team {
+    display: grid; /* Creates a grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 30px; /* Adds space between items */
+  }
+
+  .team h3 {
+    font-size: 19px; /* Shrinks h3 font size */
+  }
+
+  .team h4 {
+    font-size: 14px; /* Shrinks h4 font size */
+  }
+
+  .team p {
+    font-size: 12px; /* Reduces paragraph text size */
+    margin-bottom: 5px; /* Adds small bottom margin */
+  }
+
+  .team img {
+    width: 90px; /* Shrinks image width */
+  }
+
+  .Ourteam {
+    margin-bottom: 5px; /* Adds bottom margin */
+    justify-content: center; /* Centers content */
+  }
+
+  .table {
+    letter-spacing: 1px; /* Adjusts letter spacing for tables */
+  }
+}

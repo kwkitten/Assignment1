@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kat Kafe</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Delicious+Handrawn&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&family=Caveat+Brush&family=Caveat:wght@400..700&family=Delicious+Handrawn&family=Dongle&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 <header>
@@ -20,7 +20,7 @@
         </div>
         <div class="menu" id="menu">
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
@@ -31,50 +31,56 @@
 
 <body>
     <main>
+        <div class="text-center">
+            <h2 class="title caveat">Welcome to Kafe Kafe, where every sip tells a story</h2>
+        </div>
         <div class="content-section row">
             <div class="col-md-6">
                 <img src="images/Blissful Berries.jpg" alt="A picture of 3 fruity and vibrant drinks" class="home-img">
             </div>
 
-            <div class="col-md-6">
-                <h2 class="info-name"><b>Berry Bliss Trio</b></h2>
-                <p class="info">Bright, fruity, and bursting with flavor — refreshment at its finest. 
+            <div class="col-md-6" style="padding-top: 0px;">
+                <h3 class="info-name delicious-handrawn-regular">Berry Bliss Trio</h3> 
+                <hr>
+                <p class="info dongle-regular">Bright, fruity, and bursting with flavor — refreshment at its finest. 
                     Experience our vibrant tea drinks crafted to energize and delight! <br>
                     Sip on the sweetness of berries and enjoy a refreshing escape! </p>
             </div>
         </div>
 
         <div class="content-section row">
-            <div class="col-md-6">
-                <img src="images/Blissful Berries.jpg" alt="A picture of 3 relaxing and soothing drinks" class="home-img">
-            </div>
-
-            <div class="col-md-6">
-                <h2 class="info-name">Dreamy Tea Delights</h2>
-                <p class="info">Smooth, soothing, and simply irresis-tea-able that feels like a little luxury.
+            <div class="col-md-6 padding">
+                <h3 class="info-name delicious-handrawn-regular">Dreamy Tea Delights</h3>
+                <hr>
+                <p class="info dongle-regular">Smooth, soothing, and simply irresis-tea-able that feels like a little luxury.
                     Unwind and recharge with these beautifully crafted tea lattes. <br>
                     Perfect for moments when you need a little extra comfort and joy!</p>
+            </div>
+            <div class="col-md-6" style="padding-top: 10px;">
+                <img src="images/dreamy tea delights.jpg" alt="A picture of 3 relaxing and soothing drinks" class="home-img">
             </div>
         </div>
 
         <div class="content-section row">
             <div class="col-md-6">
-                <img src="images/Blissful Berries.jpg" alt="A picture of 3 relaxing and soothing drinks" class="home-img">
+                <img src="images/warm spice wonders.jpg" alt="A picture of 3 cosy and comforting drinks" class="home-img">
             </div>
 
-            <div class="col-md-6">
-                <h2 class="info-name">Warm Spice Wonders</h2>
-                <p class="info">Cozy up with drinks that wrap you in comfort and flavor. Indulge in the perfect blend of warmth 
+            <div class="col-md-6" style="padding-top: 0px;">
+                <h3 class="info-name delicious-handrawn-regular">Warm Spice Wonders</h3>
+                <hr>
+                <p class="info dongle-regular">Cozy up with drinks that wrap you in comfort and flavor. Indulge in the perfect blend of warmth 
                     and spice with our trio of comforting creations! <br>
                     Let these handcrafted drinks brighten your day, one cozy sip at a time!</p>
             </div>
         </div>
 
     </main>
-    <script src="home.js"></script>
+    <footer>
+        <p class="footer caveat">© 2024 Kat Kafe. All rights reserved.</p>
+    </footer>
+    <script src="js/home.js" defer></script>
 </body>
 
-<footer>
-    <p class="footer">© 2024 Kat Kafe. All rights reserved.</p>
-</footer>
+
 </html>
