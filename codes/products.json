@@ -4,83 +4,83 @@
         "name": "Velvet Vanilla Matcha",
         "desc": "A creamy blend of matcha green tea, vanilla bean syrup, and steamed oat milk, topped with a dusting of matcha powder. Perfect for when you need a smooth and energizing treat!",
         "price": 6.99,
-        "image": "images/VelvetVanillaMacha.jpeg"
+        "image": "images/velvetvanillamacha.jpeg"
     },
     {
         "id": 2,
         "name": "Peachy Pink Cloud",
         "desc": "A refreshing iced tea made with peach and hibiscus tea, shaken with coconut milk and a splash of white peach syrup. Served over ice with a light foam on top for a dreamy look.",
         "price": 8.99,
-        "image": "images/PeachyPinkCloud.webp"
+        "image": "images/peachypinkcloud.webp"
     },
     {
         "id": 3,
         "name": "Golden Glow Latte",
         "desc": "Turmeric chai tea with honey and steamed almond milk, sprinkled with cinnamon for a warm and cozy vibe. Great for feeling radiant inside and out.",
         "price": 15.99,
-        "image": "images/GoldenGlowLatte.webp"
+        "image": "images/goldenglowlatte.webp"
     },
     {
         "id": 4,
         "name": "Berry Bliss Breeze",
         "desc": "An iced tea refresher made with blackberry green tea, a splash of lemonade, and whole raspberries for garnish. Sweet, tangy, and perfect for sunny days.",
         "price": 10.99,
-        "image": "images/BerryBlissBreeze.png"
+        "image": "images/berryblissbreeze.png"
     },
     {
         "id": 5,
         "name": "Toasted Caramel Chai",
         "desc": "Classic chai tea latte with a swirl of caramel syrup, topped with whipped cream and caramel drizzle. It's like a hug in a cup with a hint of indulgence.",
         "price": 5,
-        "image": "images/ToastedCaramelChai.jpeg"
+        "image": "images/toastedcaramelchai.jpeg"
     },
     {
         "id": 6,
         "name": "Citrus Spark Fizz",
         "desc": "A sparkling tea blend featuring Earl Grey, orange zest, and a splash of sparkling water, finished with a twist of lemon. Zesty and uplifting for midday pick-me-ups.",
         "price": 5,
-        "image": "images/CitrusSparkFizz.jpg"
+        "image": "images/citrussparkfizz.jpg"
     },
     {
         "id": 7,
         "name": "Minty Mocha Matcha",
         "desc": "A unique combo of matcha, a hint of mocha syrup, and frothy coconut milk, finished with a dash of crushed mint leaves. Refreshing yet decadent!",
         "price": 10.99,
-        "image": "images/MintyMochaMatcha.jpeg"
+        "image": "images/mintymochamatcha.jpeg"
     },
     {
         "id": 8,
         "name": "Tropical Twilight Tea",
         "desc": "A cold brew of passionfruit tea mixed with pineapple juice and a splash of pomegranate syrup, creating a layered sunset effect in your cup.",
         "price": 7.99,
-        "image": "images/TropicalTwilightTea.jpeg"
+        "image": "images/tropicaltwilighttea.jpeg"
     },
     {
         "id": 9,
         "name": "Lavender Dream Fog",
         "desc": "A calming lavender Earl Grey tea latte, infused with honey and steamed milk, topped with a sprinkle of dried lavender buds. This drink feels like a warm hug on a dreamy afternoon.",
         "price": 9.99,
-        "image": "images/LavenderDreamFog.jpeg"
+        "image": "images/lavenderdreamfog.jpeg"
     },
     {
         "id": 10,
         "name": "Raspberry Rose Glow",
         "desc": "A light and floral iced tea made with rosehip tea, raspberry syrup, and a splash of sparkling water, garnished with edible rose petals and fresh raspberries. Perfect for a refreshing pick-me-up with a luxurious touch.",
         "price": 10.99,
-        "image": "images/RaspberryRoseGlow.jpeg"
+        "image": "images/raspberryroseglow.jpeg"
     },
     {
         "id": 11,
         "name": "Coconut Chai Bliss",
         "desc": "A tropical twist on a classic chai latte, made with spiced chai, creamy coconut milk, and a drizzle of caramel. Topped with toasted coconut flakes for a taste of the tropics.",
         "price": 13.99,
-        "image": "images/CoconutChaiBliss.jpeg"
+        "image": "images/coconutchaibliss.jpeg"
     },
     {
         "id": 12,
         "name": "Blueberry Citrus Sparkler",
         "desc": "A zesty and sparkling tea featuring a blend of blueberry green tea, fresh orange juice, and fizzy soda water, garnished with a twist of orange peel and fresh blueberries. A bright and energizing delight!",
         "price": 15.99,
-        "image": "images/BlueberryCitrusSparkler.jpeg"
+        "image": "images/blueberrycitrussparkler.jpeg"
     }
 ]
