@@ -834,6 +834,7 @@ header .icon-cart span {
   display: grid; /* Grid layout for sections */
   grid-template-rows: 70px 1fr 70px; /* Header, body, and footer sections */
   transition: 0.5s; /* Smooth transition for toggling */
+  z-index: 1;
 }
 
 /* Active state to show the cart */
@@ -1140,7 +1141,6 @@ textarea.form-control {
 /* "Caveat" font styling */
 .caveat {
   font-family: "Caveat", cursive; /* Playful, cursive font */
-  font-optical-sizing: auto; /* Ensures optimal font rendering */
   font-weight: 300; /* Light weight for elegance */
   font-style: normal; /* Default font style */
 }
@@ -1298,6 +1298,7 @@ textarea.form-control {
   /* Footer adjustments */
   .footer {
     font-size: 15px; /* Adjusts footer text size */
+    z-index: 0;
   }
 
   footer {
